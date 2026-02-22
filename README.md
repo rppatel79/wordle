@@ -25,24 +25,29 @@ wordle_bestword/
 ```bash
 git clone https://github.com/<your-username>/wordle_bestword.git
 cd wordle_bestword
+```
 
 ## Set Up a Virtual Environment
 ### macOS / Linux
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 ### Windows (Command Prompt)
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
+```
 
 ## Install the Project
 Install in editable mode so code changes are picked up automatically:
 ```bash
 pip install -e .
+```
 
 ## Run the Program
 From the project root:
 ```bash
 pip install -e .
+```

@@ -23,7 +23,7 @@ wordle_bestword/
 ## 🚀 Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/wordle_bestword.git
+git clone https://github.com/rppatel79/wordle.git
 cd wordle_bestword
 ```
 

@@ -5,6 +5,7 @@ This project analyzes historical Wordle answers and a list of valid five-letter 
 With the included dataset, the current best starting word is:
 
 ## 📦 Project Structure
+```
 wordle_bestword/
 ├── data/
 │ ├── wordle.txt
@@ -17,6 +18,7 @@ wordle_bestword/
 ├── pyproject.toml
 ├── requirements.txt
 └── README.md
+```
 
 ## 🚀 Clone the Repository
 
@@ -44,4 +46,3 @@ pip install -e .
 From the project root:
 ```bash
 pip install -e .
-

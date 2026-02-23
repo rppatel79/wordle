@@ -6,7 +6,7 @@ With the included dataset, the current best starting word is:
 
 ## 📦 Project Structure
 ```
-wordle_bestword/
+wordle/
 ├── data/
 │ ├── wordle.txt
 │ └── valid_five_letter_words.txt
@@ -24,7 +24,7 @@ wordle_bestword/
 
 ```bash
 git clone https://github.com/rppatel79/wordle.git
-cd wordle_bestword
+cd wordle
 ```
 
 ## Set Up a Virtual Environment
@@ -35,6 +35,7 @@ source .venv/bin/activate
 ```
 
 ### Windows (Command Prompt)
+Must be an Administrator mode
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
@@ -49,5 +50,5 @@ pip install -e .
 ## Run the Program
 From the project root:
 ```bash
-pip install -e .
+python -m wordle_bestword
 ```
